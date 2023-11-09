@@ -1,0 +1,39 @@
+/*Servicios*/
+
+/* Mixin para estilos de tarjetas */
+@mixin card-styles {
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    @include card-styles;
+}
+
+.card-button {
+    margin-top: auto;
+}
+
+.cardDos,
+.cardTres {
+    margin-top: 30px;
+}
+
+.card-img-top {
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.2rem;
+}

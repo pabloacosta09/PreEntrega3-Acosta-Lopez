@@ -1,0 +1,62 @@
+/*Seccion blog*/
+
+/* Mixin para estilos de contenedores */
+@mixin container-styles {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Mixin para estilos de secciones */
+@mixin section-styles {
+    margin: 30px 0;
+    padding: 30px;
+    background-color: $color-blanco;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.fondoPagina {
+    background-image: url("../ContenidoVisual/Imagenes/blog-fondo.jpg");
+    background-color: $color-blanco;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: $color-negro;
+}
+
+.container {
+    @include container-styles;
+}
+
+.about-section,
+.tips-section,
+.history-section,
+.testimonial-section {
+    @include section-styles;
+}
+
+h2,
+h3 {
+    color: $color-rojo;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.testimonial {
+    img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-style: italic;
+    }
+}

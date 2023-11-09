@@ -1,0 +1,26 @@
+/*FORMULARIO*/
+
+.container {
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border-color: $color-gris;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+}

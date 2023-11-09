@@ -1,0 +1,50 @@
+/*FOOTER*/
+
+.footer {
+    background-color: $color-negro;
+    color: $color-blanco;
+    padding: 20px;
+
+    h3 {
+        font-size: 20px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        color: $color-blanco;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-rojo;
+        }
+    }
+}
+
+.social-icons {
+    li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    i {
+        font-size: 24px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.footer-bottom {
+    background-color: rgb(94, 51, 51);
+    border-top: 1px solid $color-rojo;
+    padding: 10px 0;
+
+    p {
+        margin: 0;
+    }
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Description -->
+    <meta name="Description" content="Transforma tu vida en nuestro gimnasio de vanguardia. Alcanza tus objetivos de fitness con entrenadores expertos y las mejores instalaciones. Únete a nosotros y descubre tu mejor versión.">
+
+    <!-- Keywords -->
+    <meta name="Keywords" content="Gimnasio, Fitness, Entrenamiento, Ejercicio, Rutina de ejercicios, Salud, Bienestar, Entrenador personal, Musculación, Cardio, Flexibilidad, Fuerza, Estilo de vida activo">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Mate+SC&family=Montserrat:ital,wght@1,900&family=Raleway&family=Roboto+Mono:wght@100&family=Unbounded:wght@200&family=Yantramanav:wght@500&display=swap"
+        rel="stylesheet">
+
+    <title>Contacto | Gimnasio-Hit</title>
+
+    <link rel="icon" type="image/png" href="../img/logo.png">
+</head>
+
+<body class="fondoPagina">
+    <!-- Barra de navegación -->
+    <header class="navbar navbar-expand-lg navbar-dark">
+        <nav class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.png" alt="Logo" class="logoGim">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="horarios.html">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profesores.html">Profesores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido -->
+    <form>
+        <div class="container">
+            <h2>Formulario de inscripción al gimnasio</h2>
+            <p>Por favor, rellena los siguientes campos para inscribirte al gimnasio.</p>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe tu nombre"
+                        required>
+                </div>
+                <div class="col-md-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido"
+                        placeholder="Escribe tu apellido" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Escribe tu email"
+                        required>
+                </div>
+                <div class="col-md-6">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" name="telefono"
+                        placeholder="Escribe tu teléfono" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="fecha_nacimiento" class="form-label">Fecha de nacimiento</label>
+                    <input type="date" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="genero" class="form-label">Género</label>
+                    <select class="form-select" id="genero" name="genero" required>
+                        <option value="">Selecciona tu género</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                        <option value="O">Otro</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="plan" class="form-label">¿Tuviste alguna lesion?</label>
+                    <select class="form-select" id="plan" name="plan" required>
+                        <option value="">Selecciona</option>
+                        <option value="B">Si</option>
+                        <option value="P">No</option>
+                        <option value="V">No se</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="forma_pago" class="form-label">Forma de pago</label>
+                    <select class="form-select" id="forma_pago" name=forma_pago required>
+                        <option value="">Selecciona la forma de pago que prefieres</option>
+                        <option value="T">Tarjeta de crédito o débito</option>
+                        <option value="E">Efectivo</option>
+                        <option value="P">Mercado Pago</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="comentarios" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="comentarios" name="comentarios"
+                        placeholder="Escribe aquí cualquier comentario o sugerencia que tengas"></textarea>
+                </div>
+            </div>
+            <hr>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+    <!-- whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=3435338342&text=Hola%2C%20quisiera%20inscribirme%20al%20gym"
+        class="whatsapp" target="_blank">
+        <img src="../img/icono.png" alt="Icono de WhatsApp" width="50px" height="50px">
+    </a>
+
+    <!-- Sección de pie de página -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Contacto</h3>
+                    <a href="https://maps.app.goo.gl/Us83SzBFZgnvaXGa9" target="_blank">Dirección: Mitre 441, Cerrito.
+                        E.R</a>
+                    <p><i class="fas fa-phone"></i> Teléfono: +54 9 3435 33-8342</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="horarios.html">Horarios</a></li>
+                        <li><a href="profesores.html">Profesores</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Redes Sociales</h3>
+                    <ul class="list-unstyled social-icons">
+                        <li><a href="https://www.instagram.com/gimnasio_h.i.t/" target="_blank"><i
+                                    class="fab fa-instagram"></i>
+                                Instagram</a></li>
+                        <a href="https://api.whatsapp.com/send?phone=3435338342&text=Hola%2C%20quisiera%20inscribirme%20al%20gym"
+                            target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>© 2023 Gimnasio-Hit. "Forma tu físico, nutre tu mente."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
